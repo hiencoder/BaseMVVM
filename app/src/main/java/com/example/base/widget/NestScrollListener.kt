@@ -1,6 +1,7 @@
-package com.widget
+package com.example.base.widget
 
-import android.support.v4.widget.NestedScrollView
+import androidx.core.widget.NestedScrollView
+
 
 abstract class NestScrollListener : NestedScrollView.OnScrollChangeListener {
 

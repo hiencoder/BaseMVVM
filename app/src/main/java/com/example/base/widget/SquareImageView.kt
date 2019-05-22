@@ -1,12 +1,13 @@
-package com.widget
+package com.example.base.widget
 
 import android.content.Context
 import android.util.AttributeSet
+import androidx.appcompat.widget.AppCompatImageView
 
 /**
  * Created by Ka on 04/07/2016.
  */
-class SquareImageView : android.support.v7.widget.AppCompatImageView {
+class SquareImageView : AppCompatImageView {
 
     constructor(context: Context) : super(context)
 

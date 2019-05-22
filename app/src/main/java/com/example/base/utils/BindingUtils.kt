@@ -1,9 +1,9 @@
 package com.utils
 
-import android.databinding.BindingAdapter
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
+import androidx.databinding.BindingAdapter
 import com.utils.ext.clickWithDebounce
 
 /**

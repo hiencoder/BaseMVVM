@@ -1,10 +1,10 @@
-package com.widget
+package com.example.base.widget
 
 import android.content.Context
-import android.support.v4.widget.NestedScrollView
 import android.util.AttributeSet
 import android.view.View
-import com.base.R
+import androidx.core.widget.NestedScrollView
+import com.example.base.R
 
 class MaxHeightScrollView : NestedScrollView {
 

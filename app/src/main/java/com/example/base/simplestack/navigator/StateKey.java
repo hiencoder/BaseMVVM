@@ -15,8 +15,8 @@
  */
 package com.example.base.simplestack.navigator;
 
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
 
 /**
  * This must be implemented by the key to represent state using {@link DefaultStateChanger},

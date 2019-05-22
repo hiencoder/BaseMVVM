@@ -19,8 +19,7 @@ import android.annotation.TargetApi;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.ViewGroup;
-import com.zhuinden.statebundle.StateBundle;
-import zhuinden.simplestack.*;
+import com.example.base.simplestack.*;
 
 import java.util.Collections;
 import java.util.List;

@@ -16,9 +16,9 @@
 package com.example.base.simplestack;
 
 import android.content.Context;
-import android.support.annotation.IntDef;
-import android.support.annotation.MainThread;
-import android.support.annotation.NonNull;
+import androidx.annotation.IntDef;
+import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
 
 import java.lang.annotation.Retention;
 import java.util.*;

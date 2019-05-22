@@ -16,14 +16,16 @@
 package com.example.base.simplestack.navigator;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import zhuinden.simplestack.StateChange;
-import zhuinden.simplestack.StateChanger;
-import zhuinden.simplestack.navigator.changehandlers.FadeViewChangeHandler;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.example.base.simplestack.StateChange;
+import com.example.base.simplestack.StateChanger;
+import com.example.base.simplestack.navigator.changehandlers.FadeViewChangeHandler;
 
 /**
  * A default state changer that handles view changes, and allows an optional external state changer (which is executed before the view change).

@@ -1,13 +1,14 @@
-package com.widget
+package com.example.base.widget
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Path
 import android.graphics.RectF
 import android.util.AttributeSet
-import com.base.R
+import androidx.appcompat.widget.AppCompatImageView
+import com.example.base.R
 
-class RoundRectCornerImageView : android.support.v7.widget.AppCompatImageView {
+class RoundRectCornerImageView : AppCompatImageView{
 
     private var radius = 5.0f
     private var path: Path? = null
